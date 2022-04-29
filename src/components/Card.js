@@ -33,7 +33,7 @@ function Card(props) {
       <Details>
         <div>{props.name}</div>
         <Secondary>
-          {props.bread} {props.age}yo
+          {props.breed} {props.age}yo
         </Secondary>
       </Details>
     </Item>
