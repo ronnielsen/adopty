@@ -25,7 +25,7 @@ const Window = styled.div`
 function App() {
   const [theme, setTheme] = useState('dark')
   function toggleTheme(){
-    theme === 'light' ? setTheme('dark') : setTheme('light');
+    theme === 'dark' ? setTheme('light') : setTheme('dark');
   }
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
